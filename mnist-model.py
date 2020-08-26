@@ -149,14 +149,12 @@ def run(args):
     plt.title("Accuracy plot")
     plt.xlabel("epochs range")
     plt.ylabel("Accuracy")
-    plt.savefig("accuracy.jpeg")
     plt.show()
     
     plt.plot(net.loss_history)
     plt.title("Loss plot")
     plt.xlabel("epochs range")
     plt.ylabel("Loss")
-    plt.savefig("loss.jpeg")
     plt.show()
 
 

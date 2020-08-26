@@ -7,6 +7,8 @@ python mnist-model.py
 
 ### Help
 ```
+python mnist-model.py --help
+
 usage: mnist-model.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--learning_rate LEARNING_RATE] [--save SAVE]
 
 optional arguments:
